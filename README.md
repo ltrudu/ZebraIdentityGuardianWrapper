@@ -356,3 +356,41 @@ Map<String, String> resultMap = IGCRHelper.cursorToMap(cusor);
 String resultXML = IGCRHelper.cursorToXml(cusor);
 ```
 
+Snippet code to track Authentication changes:
+```java
+AuthenticationStatusObserver mAuthenticationStatusObserver = new AuthenticationStatusObserver(context, new AuthenticationStatusObserver.IStatusChangeCallback() {
+	@Override
+	public void onAuthenticationStatusChanged(String status) {
+		Log.v(TAG, "*************Authentication changed**************");
+		// Do what you have to do with the status
+		// Status empty means that we are logged in and no events happened
+		Log.v(TAG, status);
+		Log.v(TAG, "*************************************************");
+	}
+
+	@Override
+	public void onError(String error) {
+		Log.e(TAG, error);
+	}
+
+	@Override
+	public void onDebugStatus(String message) {
+		Log.d(TAG, message);
+	}
+});
+```
+
+```java
+   @Override
+    protected void onResume() {
+        mAuthenticationStatusObserver.start();
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        mAuthenticationStatusObserver.stop();
+        super.onPause();
+    }
+
+```
