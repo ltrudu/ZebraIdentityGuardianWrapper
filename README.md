@@ -5,7 +5,7 @@
 [![](https://jitpack.io/v/ltrudu/ZebraIdentityGuardianWrapper/month.svg)](https://jitpack.io/#ltrudu/ZebraIdentityGuardianWrapper)
 
 
-# ZebraIdentitiyGuardianWrapper
+# ZebraIdentityGuardianWrapper
 
 ## Easy implementation of Identity Guardian APIs !!!
 
