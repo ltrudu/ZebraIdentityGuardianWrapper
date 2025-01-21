@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.zebra.zebraidentitiyguardianwrapper'
+    namespace 'com.zebra.zebraidentityguardianwrapper'
     compileSdk 34
 
     defaultConfig {
@@ -28,8 +28,7 @@ android {
 }
 
 dependencies {
-
-    implementation libs.appcompat
+    implementation libs.androidx
     compileOnly libs.emdk
     implementation libs.emdkProfileManagerHelper
 }

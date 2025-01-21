@@ -3,8 +3,10 @@ agp = "7.2.2"
 appcompat = "1.7.0"
 emdk = "11.0.134"
 emdkProfileManagerHelper = "1.1"
+androidx = "1.13.0"
 
 [libraries]
+androidx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 emdk = { group = "com.symbol", name = "emdk", version.ref = "emdk" }
 emdkProfileManagerHelper = { group = "com.github.ltrudu", name = "EMDKProfileManagerHelper", version.ref = "emdkProfileManagerHelper" }

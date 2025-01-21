@@ -1,4 +1,4 @@
-package com.zebra.zebraidentitiyguardianwrapper;
+package com.zebra.zebraidentityguardianwrapper;
 
 // Inspiration from Vitality answer : https://stackoverflow.com/a/68395429
 

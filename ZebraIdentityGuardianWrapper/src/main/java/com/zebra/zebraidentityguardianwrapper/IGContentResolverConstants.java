@@ -1,4 +1,4 @@
-package com.zebra.zebraidentitiyguardianwrapper;
+package com.zebra.zebraidentityguardianwrapper;
 
 public class IGContentResolverConstants {
 

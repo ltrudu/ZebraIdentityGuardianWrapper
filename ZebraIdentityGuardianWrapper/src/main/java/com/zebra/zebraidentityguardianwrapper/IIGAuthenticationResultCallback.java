@@ -1,6 +1,4 @@
-package com.zebra.zebraidentitiyguardianwrapper;
-
-import android.database.Cursor;
+package com.zebra.zebraidentityguardianwrapper;
 
 public interface IIGAuthenticationResultCallback {
     void onSuccess(String result);
