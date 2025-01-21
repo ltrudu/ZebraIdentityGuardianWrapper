@@ -1,8 +1,8 @@
 *Please be aware that this library / application / sample is provided as a community project without any guarantee of support*
 =========================================================
 
-[![](https://jitpack.io/v/ltrudu/ZebraIdentitiyGuardianWrapper.svg)](https://jitpack.io/#ltrudu/ZebraIdentitiyGuardianWrapper)
-[![](https://jitpack.io/v/ltrudu/ZebraIdentitiyGuardianWrapper/month.svg)](https://jitpack.io/#ltrudu/ZebraIdentitiyGuardianWrapper)
+[![](https://jitpack.io/v/ltrudu/ZebraIdentityGuardianWrapper.svg)](https://jitpack.io/#ltrudu/ZebraIdentityGuardianWrapper)
+[![](https://jitpack.io/v/ltrudu/ZebraIdentityGuardianWrapper/month.svg)](https://jitpack.io/#ltrudu/ZebraIdentityGuardianWrapper)
 
 
 # ZebraIdentitiyGuardianWrapper
@@ -32,7 +32,7 @@ https://techdocs.zebra.com/identityguardian/
 See sample App for a quick implementation of the library.
 
 ## Sample Repository
-https://github.com/ltrudu/ZebraIdentitiyGuardianWrapperSample
+https://github.com/ltrudu/ZebraIdentityGuardianWrapperSample
 
 Look for "TODO: MANDATORY FOR ZebraIdentitiyGuardianWrapper" section of this Readme to find what you need to add to your AndroidManifest.xml to use this wrapper.
 
