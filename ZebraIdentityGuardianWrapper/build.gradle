@@ -1,5 +1,5 @@
 plugins {
-    alias(libs.plugins.android.library)
+    id 'com.android.library'
 }
 
 android {
@@ -30,10 +30,6 @@ android {
 dependencies {
 
     implementation libs.appcompat
-    implementation libs.material
     compileOnly libs.emdk
     implementation libs.emdkProfileManagerHelper
-    testImplementation libs.junit
-    androidTestImplementation libs.ext.junit
-    androidTestImplementation libs.espresso.core
 }

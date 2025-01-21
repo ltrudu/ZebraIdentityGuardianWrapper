@@ -21,5 +21,7 @@ dependencyResolutionManagement {
     }
 }
 
+enableFeaturePreview('VERSION_CATALOGS')
+
 rootProject.name = "ZebraIdentitiyGuardianWrapper"
 include ':ZebraIdentityGuardianWrapper'
