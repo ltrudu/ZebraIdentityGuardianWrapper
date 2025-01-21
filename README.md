@@ -14,7 +14,7 @@ Forget about ContentResolvers, StageNow, EMDK, certificates, application signatu
 Just implement Identity Guardian APIs with simple method calls that will:
 - Register your app to the requested service using AccessMgr CSP and the EMDK's profile manager.
 - Retrieve session data as a cursor.
-- Translate the cursor into text message, a key/value pair Map.
+- Translate the cursor into text message, a key/value pair Map, JSON object, XML String.
 - Register to authentication changes with a simple java object.
 
 Have fun with Zebra's devices :)
